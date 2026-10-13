@@ -14,7 +14,7 @@ Antigravity의 slash 호출은 설치 버전의 지원 여부를 확인합니다
 
 정본은 프로젝트의 `.agents/skills/game-design-for-immersion`입니다. 현재 개인 설치는 이 프로젝트를 가리키는 절대 링크, 프로젝트 Claude 별칭은 `../../.agents/skills/game-design-for-immersion` 상대 링크입니다. 원본 프로젝트를 이동하면 개인 링크의 대상도 확인합니다. 프로젝트 전체 이동 시 Claude 상대 링크는 같은 폴더 구조를 유지해야 합니다.
 
-Codex 표시 메타데이터는 [openai.yaml](../.agents/skills/game-design-for-immersion/agents/openai.yaml)에 있습니다. 별도 역할 프로필 없이도 지식 스킬을 사용합니다. 후속 검수 도구 `book-to-skill-followup`은 제작·검수용이며 일상적인 책 학습 요청에서는 지식 스킬을 호출합니다.
+Codex 표시 메타데이터는 [openai.yaml](../.agents/skills/game-design-for-immersion/agents/openai.yaml)에 있습니다. 별도 역할 프로필 없이도 지식 스킬을 사용합니다.
 
 ## 인식 확인
 
@@ -23,7 +23,7 @@ Codex 표시 메타데이터는 [openai.yaml](../.agents/skills/game-design-for-
 3. 답변이 요청에 맞게 선택한 자료를 실제 읽었는지 도구 로그에서 확인합니다.
 4. 파일 연결 확인과 실제 호출 결과를 구분해 기록합니다.
 
-현재 후속 FLOW는 **사용 호스트 Codex 1개**의 최종 호출을 대상으로 합니다. Claude Code·Antigravity의 경로와 메타데이터 검사만으로 해당 호스트의 실제 실행을 통과했다고 판단하지 않습니다. CLI 시험은 GUI 메뉴에서의 발견까지 보증하지 않습니다.
+제작 당시의 최종 호출 기록은 **Codex 1개**와 당시 버전의 검증 범위를 대상으로 합니다. Claude Code·Antigravity의 경로와 메타데이터 검사만으로 해당 호스트의 실제 실행을 통과했다고 판단하지 않습니다. CLI 시험은 GUI 메뉴에서의 발견까지 보증하지 않습니다.
 
 ## 공식 안내
 

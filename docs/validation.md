@@ -31,16 +31,15 @@
 
 ## 제작 기록과 다시 검사하기
 
-2026-10-13의 [구조 검토 기록](../output/skill-review/2026-10-13/structure-review/report.md)은 당시 범위의 증거입니다. 새 후속 실행은 `_workspace/harness/book-to-skill-followup/<run-id>/`에 입력·감사·원래 답변·판정·고정 해시·호스트 로그를 보존합니다. 최종 상태는 해당 run의 `run.json`과 `verify`/`finalize` 결과로 확인합니다.
+2026-10-13의 [구조 검토 기록](../output/skill-review/2026-10-13/structure-review/report.md)은 당시 범위의 증거입니다. 제작 당시의 입력·감사·원래 답변·판정·고정 해시·호스트 로그는 로컬 검수 기록으로 보존합니다. 저장소의 검토 요약과 로컬 실행 기록을 구분합니다.
 
-프로젝트 루트에서 정적 검사를 실행할 수 있습니다. Python 3.11 이상, PyYAML·markdown-it-py가 필요합니다. 기본 학습에는 검사 환경이 필요하지 않습니다. 첫 번째 명령의 후속 검사 도구는 저장소에 포함되어 있습니다. 두 번째 원문 검사는 별도로 설치한 [book-to-skill](https://github.com/virgiliojr94/book-to-skill) 변환기와 로컬 원본 PDF가 필요합니다. 원본과 변환기는 이 저장소에 포함하지 않습니다.
+구조·수치·원문 식별을 다시 검사하려면 Python 3.11 이상과 PyYAML, 별도로 설치한 [book-to-skill](https://github.com/virgiliojr94/book-to-skill) 변환기와 로컬 원본 PDF가 필요합니다. 변환기는 `.agents/skills/book-to-skill/`에 설치하고 원본은 `source.json`의 `source_file` 경로에 두거나 검사 명령에 `--source-pdf /absolute/source.pdf`를 지정합니다. 원본과 변환기는 이 저장소에 포함하지 않으며 기본 학습에는 검사 환경이 필요하지 않습니다.
 
 ```bash
-python3 -B .agents/skills/book-to-skill-followup/scripts/check_package.py   --project "$PWD" --skill .agents/skills/game-design-for-immersion   --documents README.md --documents docs
 python3 -B output/skill-review/2026-10-13/structure-review/validate_bundle.py   .agents/skills/game-design-for-immersion
 ```
 
-검사 기록 이후 파일이 바뀌면 이전 해시의 통과를 현재 버전의 결과로 재사용하지 않습니다. 후속 FLOW는 최종 내용 고정 후 사용 호스트 한 번을 호출하고, 그 뒤 검증 결과를 run에 저장합니다. 호출 뒤 출처 파일을 수정해 고정 버전을 바꾸지 않습니다.
+검사 기록 이후 파일이 바뀌면 이전 해시의 통과를 현재 버전의 결과로 재사용하지 않습니다. 다시 검사할 때는 입력·검사 명령·결과·읽기 경로·해시를 함께 기록하고, 검사한 버전과 최종 배포 버전이 같은지 확인합니다.
 
 ## 최근 재검수와 한국어 검수 <a id="latest-review"></a>
 

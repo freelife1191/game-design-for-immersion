@@ -160,7 +160,7 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 
 책의 설명, 책 사례의 압축 재구성, 프로젝트를 위한 새 적용안을 구분합니다. **PDF 쪽 = 인쇄 본문 쪽 + 16**이며 앞부분 로마숫자 쪽에는 적용하지 않습니다. 예시 비율·가격·일수는 서비스 기본값이 아닙니다.
 
-2026-10-13의 [구조·내용 검토](output/skill-review/2026-10-13/structure-review/report.md)는 보존했습니다. 새 후속 실행의 입력·원문 대조·독립 시험·호스트 결과는 `_workspace/harness/book-to-skill-followup/`에 별도로 기록합니다. 증거 종류와 완료 판정 방법은 [검수 가이드](docs/validation.md#evidence-levels)에 있습니다.
+2026-10-13의 [구조·내용 검토](output/skill-review/2026-10-13/structure-review/report.md)는 보존했습니다. 제작 당시의 입력·원문 대조·독립 시험·호스트 결과는 로컬 검수 기록으로 보존하며 기본 설치에 포함하지 않습니다. 증거 종류와 완료 판정 방법은 [검수 가이드](docs/validation.md#evidence-levels)에 있습니다.
 
 2026-10-14에는 원문·문서·한국어를 다시 검수해 근거 없는 시간 기준과 귀속·용어 혼용을 보정했습니다. 이후 [skill-creator 심층 검토](_workspace/skill-creator-review/2026-10-14/reference-depth/report.md)에서 19개 세부 절의 조건·예외를 보강하고 자료 선택·정책 해석을 다듬었습니다. 이번 README와 고급 가이드 반영 내용은 [문서 검토 기록](_workspace/documentation-review/2026-10-14/reference-depth-sync/report.md)에 따로 남깁니다. [최근 재검수와 한국어 검수](docs/validation.md#latest-review)에서 범위와 보완 내용을 확인할 수 있습니다.
 

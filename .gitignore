@@ -31,6 +31,8 @@ full_text.txt
 book_skill_work*/
 /.agents/skills/book-to-skill/
 /.claude/skills/book-to-skill
+/.agents/skills/book-to-skill-followup/
+/.claude/skills/book-to-skill-followup
 
 # Build, environment, and temporary files
 __pycache__/
