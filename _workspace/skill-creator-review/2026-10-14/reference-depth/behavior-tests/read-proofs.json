@@ -1,0 +1,42 @@
+[
+  {
+    "case": "strategy",
+    "version": "candidate",
+    "read_files": 5,
+    "paths_exist": true,
+    "sha256_matches_current_trial_copy": true,
+    "knowledge_markdown_only": true
+  },
+  {
+    "case": "psychology",
+    "version": "candidate",
+    "read_files": 6,
+    "paths_exist": true,
+    "sha256_matches_current_trial_copy": true,
+    "knowledge_markdown_only": true
+  },
+  {
+    "case": "experience",
+    "version": "candidate",
+    "read_files": 6,
+    "paths_exist": true,
+    "sha256_matches_current_trial_copy": true,
+    "knowledge_markdown_only": true
+  },
+  {
+    "case": "economy",
+    "version": "candidate",
+    "read_files": 10,
+    "paths_exist": true,
+    "sha256_matches_current_trial_copy": true,
+    "knowledge_markdown_only": true
+  },
+  {
+    "case": "economy-r2",
+    "version": "candidate-r2",
+    "read_files": 8,
+    "paths_exist": true,
+    "sha256_matches_current_trial_copy": true,
+    "knowledge_markdown_only": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "errors": [
+    "Missing: source.json",
+    "Missing: references/index.md",
+    "Missing: references/coverage.md",
+    "Missing: references/figures-and-formulas.md",
+    "Missing: references/glossary-extended.md",
+    "Missing: references/review-history.json"
+  ]
+}

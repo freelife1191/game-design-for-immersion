@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "subject": "candidate-r2",
+  "canonical_files": 42,
+  "knowledge_copy_files": 34,
+  "copy_bytes_match": true,
+  "source_older_fields_and_audits_preserved": true,
+  "numeric_reference_and_coverage_identical": true,
+  "advanced_guide_identical": true,
+  "changed_files": 21,
+  "new_skill_resources": 0
+}

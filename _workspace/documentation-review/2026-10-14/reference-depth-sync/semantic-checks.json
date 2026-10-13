@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "existing_ids_preserved": 61,
+  "existing_anchors_preserved": 85,
+  "current_ids": 69,
+  "current_anchors": 94,
+  "copyable_named_prompts": 69,
+  "details_balanced": true,
+  "original_scenario_policy_lines_preserved_per_id": true,
+  "parent_ids_and_public_links_valid": true,
+  "condition_handoffs": 22,
+  "skill_unchanged_files": 34,
+  "source_scope": "only README and advanced-usage edited"
+}

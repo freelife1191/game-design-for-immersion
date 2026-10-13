@@ -1,0 +1,11 @@
+{
+  "canonical_project_skill": "/Users/freelife/ai/game-design-for-immersion/.agents/skills/game-design-for-immersion",
+  "personal_alias": "/Users/freelife/.agents/skills/game-design-for-immersion",
+  "personal_alias_target": "/Users/freelife/ai/game-design-for-immersion/.agents/skills/game-design-for-immersion",
+  "claude_project_alias": "/Users/freelife/ai/game-design-for-immersion/.claude/skills/game-design-for-immersion",
+  "claude_project_alias_target": "../../.agents/skills/game-design-for-immersion",
+  "readback": "all SKILL.md bytes identical",
+  "files_installed": 33,
+  "backup": "/Users/freelife/ai/game-design-for-immersion/output/skill-review/2026-10-13/structure-review/backups/personal-install-before-update",
+  "gui_or_host_invocation_tested": false
+}

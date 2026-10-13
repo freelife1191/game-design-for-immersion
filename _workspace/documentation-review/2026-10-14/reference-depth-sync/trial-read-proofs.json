@@ -1,0 +1,37 @@
+[
+  {
+    "trial": "noncombat",
+    "record": "reads.json",
+    "files": 5,
+    "paths_exist": true,
+    "current_sha_matches_read": true
+  },
+  {
+    "trial": "reentry",
+    "record": "reads.json",
+    "files": 6,
+    "paths_exist": true,
+    "current_sha_matches_read": true
+  },
+  {
+    "trial": "reciprocity",
+    "record": "reads.json",
+    "files": 5,
+    "paths_exist": true,
+    "current_sha_matches_read": true
+  },
+  {
+    "trial": "reentry-r2",
+    "record": "reads.json",
+    "files": 6,
+    "paths_exist": true,
+    "current_sha_matches_read": true
+  },
+  {
+    "trial": "reentry-r2",
+    "record": "followup-reads.json",
+    "files": 4,
+    "paths_exist": true,
+    "current_sha_matches_read": true
+  }
+]

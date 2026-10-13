@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "status": "complete",
+  "skill": "game-design-for-immersion",
+  "workflow": "skill-creator review and reference-depth refinement",
+  "subject": "candidate-r2",
+  "subject_files": 42,
+  "knowledge_copy_files": 34,
+  "files_digest": "066b0c8a78ef81dac6be7bd89c3c899579b205991c95dade2d509b2e12a82cae",
+  "original_source_sha256": "91e6fafe93405fafba365be4422bd540fb273b3debecee489c00f66b617a79fd",
+  "source_subsections_checked": 79,
+  "subsections_refined": 19,
+  "topic_checks": 393,
+  "topic_count_note": "이 감사의 하위 주제 분류이며 원서 공식 원칙 개수가 아님",
+  "changed_files": 21,
+  "new_skill_resources": 0,
+  "glossary_terms": 100,
+  "knowledge_links_checked": 300,
+  "before_entrypoint_token_estimate": 1978,
+  "after_entrypoint_token_estimate": 1548,
+  "token_estimate_note": "book-to-skill heuristic; actual model billing tokens 아님",
+  "verification": {
+    "quick_validate": "passed using existing Python3.14.8",
+    "package_static": "pass",
+    "bundle_structure_numeric_checks": "pass",
+    "preservation_and_copy_hashes": "pass",
+    "independent_content_review": "pass",
+    "independent_behavior_review": "strategy,psychology,experience passed on r1; economy passed on r2",
+    "behavior_subject_limit": "r1 executions are not r2 execution/hash proofs",
+    "first_economy_failure_preserved": true,
+    "independent_final": "approved for current review scope; blockers none"
+  },
+  "evidence": {
+    "source_reviews": "source-review/ch01–ch04/depth-review.json",
+    "term_review": "terminology-review/review.json",
+    "structure_decisions": "structure-decisions.json",
+    "behavior_review": "final-review/behavior-review.json",
+    "final_review": "final-review/final-review.json",
+    "subject_manifest": "candidate-manifest-r2.json",
+    "diff": "changes-final.diff"
+  },
+  "limitations": [
+    "원문 모든 문장·게임 사례·도판의 복제를 목표로 하지 않음",
+    "심리 연구의 현대 재현성·현행 시장·실제 플레이 성과는 검증 범위 밖",
+    "일부 긴 수식·VIP 표의 OCR/인쇄 혼선은 기존 한계 보존",
+    "실제 UI 발견·자동 호출, 새 호스트 CLI 호출, 게임 런타임은 별도 검증 범위",
+    "서열 위치 효과의 시간 조건은 원문 대조됐지만 이번 행동 요청에서 직접 시험하지 않음"
+  ],
+  "packages_added": false,
+  "global_configuration_changed": false
+}

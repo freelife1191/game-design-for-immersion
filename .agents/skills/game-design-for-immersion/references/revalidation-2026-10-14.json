@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-14",
+  "status": "reviewed_and_refined",
+  "scope": "원서 본문 1–284쪽/PDF17–300쪽의 핵심 주장·조건·예외와 79개 세부 목차 대조; 지식 Markdown 30개·README·사용 가이드7개 한국어 검수",
+  "source_sha256": "91e6fafe93405fafba365be4422bd540fb273b3debecee489c00f66b617a79fd",
+  "original_chapters": 4,
+  "major_sections": 18,
+  "subsections": 79,
+  "coverage": [
+    {
+      "id": "1.1.1",
+      "chapter": 1,
+      "source_pages": "본문 2–11 / PDF 18–27",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.2",
+      "chapter": 1,
+      "source_pages": "본문 11–15 / PDF 27–31",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.3",
+      "chapter": 1,
+      "source_pages": "본문 15–17 / PDF 31–33",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.4",
+      "chapter": 1,
+      "source_pages": "본문 17–19 / PDF 33–35",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.5",
+      "chapter": 1,
+      "source_pages": "본문 19–26 / PDF 35–42",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.6",
+      "chapter": 1,
+      "source_pages": "본문 26–29 / PDF 42–45",
+      "initial_verdict": "needs_edit"
+    },
+    {
+      "id": "1.1.7",
+      "chapter": 1,
+      "source_pages": "본문 29–33 / PDF 45–49",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.1.8",
+      "chapter": 1,
+      "source_pages": "본문 33–44 / PDF 49–60",
+      "initial_verdict": "pass_with_optional_coverage_gap"
+    },
+    {
+      "id": "1.1.9",
+      "chapter": 1,
+      "source_pages": "본문 44–47 / PDF 60–63",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.2.1",
+      "chapter": 1,
+      "source_pages": "본문 50–59 / PDF 66–75",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.2.2",
+      "chapter": 1,
+      "source_pages": "본문 59–61 / PDF 75–77",
+      "initial_verdict": "pass_with_optional_edit"
+    },
+    {
+      "id": "1.2.3",
+      "chapter": 1,
+      "source_pages": "본문 61–77 / PDF 77–93",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.2.4",
+      "chapter": 1,
+      "source_pages": "본문 77–82 / PDF 93–98",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "1.2.5",
+      "chapter": 1,
+      "source_pages": "본문 82–93 / PDF 98–109",
+      "initial_verdict": "needs_edit"
+    },
+    {
+      "id": "1.2.6",
+      "chapter": 1,
+      "source_pages": "본문 93–98 / PDF 109–114",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.1.1",
+      "chapter": 2,
+      "source_pages": "본문 101–105 / PDF 117–121",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.1.2",
+      "chapter": 2,
+      "source_pages": "본문 105–114 / PDF 121–130",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.1.3",
+      "chapter": 2,
+      "source_pages": "본문 114–115 / PDF 130–131",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.1.4",
+      "chapter": 2,
+      "source_pages": "본문 115–117 / PDF 131–133",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.1.5",
+      "chapter": 2,
+      "source_pages": "본문 117–119 / PDF 133–135",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.1",
+      "chapter": 2,
+      "source_pages": "본문 119–124 / PDF 135–140",
+      "initial_verdict": "supplement_recommended"
+    },
+    {
+      "id": "2.2.2",
+      "chapter": 2,
+      "source_pages": "본문 124–132 / PDF 140–148",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.3",
+      "chapter": 2,
+      "source_pages": "본문 132–139 / PDF 148–155",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.4",
+      "chapter": 2,
+      "source_pages": "본문 139–148 / PDF 155–164",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.5",
+      "chapter": 2,
+      "source_pages": "본문 148–157 / PDF 164–173",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.6",
+      "chapter": 2,
+      "source_pages": "본문 157–160 / PDF 173–176",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.7",
+      "chapter": 2,
+      "source_pages": "본문 160–164 / PDF 176–180",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "2.2.8",
+      "chapter": 2,
+      "source_pages": "본문 164–165 / PDF 180–181",
+      "initial_verdict": "citation_fix_needed"
+    },
+    {
+      "id": "3.1.1",
+      "chapter": 3,
+      "source_pages": "본문 171–173 / PDF 187–189",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.1.2",
+      "chapter": 3,
+      "source_pages": "본문 173–174 / PDF 189–190",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.2.1",
+      "chapter": 3,
+      "source_pages": "본문 174–175 / PDF 190–191",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.2.2",
+      "chapter": 3,
+      "source_pages": "본문 175–176 / PDF 191–192",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.2.3",
+      "chapter": 3,
+      "source_pages": "본문 176–177 / PDF 192–193",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.2.4",
+      "chapter": 3,
+      "source_pages": "본문 177–179 / PDF 193–195",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.2.5",
+      "chapter": 3,
+      "source_pages": "본문 179–181 / PDF 195–197",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.3.1",
+      "chapter": 3,
+      "source_pages": "본문 182–184 / PDF 198–200",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.3.2",
+      "chapter": 3,
+      "source_pages": "본문 184–184 / PDF 200–200",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.3.3",
+      "chapter": 3,
+      "source_pages": "본문 184–186 / PDF 200–202",
+      "initial_verdict": "부분 충실"
+    },
+    {
+      "id": "3.3.4",
+      "chapter": 3,
+      "source_pages": "본문 186–188 / PDF 202–204",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.3.5",
+      "chapter": 3,
+      "source_pages": "본문 188–193 / PDF 204–209",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.3.6",
+      "chapter": 3,
+      "source_pages": "본문 193–194 / PDF 209–210",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.4.1",
+      "chapter": 3,
+      "source_pages": "본문 194–199 / PDF 210–215",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.4.2",
+      "chapter": 3,
+      "source_pages": "본문 199–212 / PDF 215–228",
+      "initial_verdict": "부분 충실"
+    },
+    {
+      "id": "3.4.3",
+      "chapter": 3,
+      "source_pages": "본문 212–214 / PDF 228–230",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.1",
+      "chapter": 3,
+      "source_pages": "본문 214–215 / PDF 230–231",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.2",
+      "chapter": 3,
+      "source_pages": "본문 215–217 / PDF 231–233",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.3",
+      "chapter": 3,
+      "source_pages": "본문 217–219 / PDF 233–235",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.4",
+      "chapter": 3,
+      "source_pages": "본문 219–221 / PDF 235–237",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.5",
+      "chapter": 3,
+      "source_pages": "본문 221–223 / PDF 237–239",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.6",
+      "chapter": 3,
+      "source_pages": "본문 223–223 / PDF 239–239",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "3.5.7",
+      "chapter": 3,
+      "source_pages": "본문 223–224 / PDF 239–240",
+      "initial_verdict": "충실"
+    },
+    {
+      "id": "4.1.1",
+      "chapter": 4,
+      "source_pages": "본문 226–227 / PDF 242–243",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.1.2",
+      "chapter": 4,
+      "source_pages": "본문 227–228 / PDF 243–244",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.1.3",
+      "chapter": 4,
+      "source_pages": "본문 228–229 / PDF 244–245",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.1.4",
+      "chapter": 4,
+      "source_pages": "본문 229–235 / PDF 245–251",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.1.5",
+      "chapter": 4,
+      "source_pages": "본문 235–235 / PDF 251–251",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.2.1",
+      "chapter": 4,
+      "source_pages": "본문 236–238 / PDF 252–254",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.2.2",
+      "chapter": 4,
+      "source_pages": "본문 238–239 / PDF 254–255",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.2.3",
+      "chapter": 4,
+      "source_pages": "본문 239–240 / PDF 255–256",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.2.4",
+      "chapter": 4,
+      "source_pages": "본문 240–241 / PDF 256–257",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.3.1",
+      "chapter": 4,
+      "source_pages": "본문 241–242 / PDF 257–258",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.3.2",
+      "chapter": 4,
+      "source_pages": "본문 242–244 / PDF 258–260",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.3.3",
+      "chapter": 4,
+      "source_pages": "본문 244–246 / PDF 260–262",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.4.1",
+      "chapter": 4,
+      "source_pages": "본문 247–252 / PDF 263–268",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.4.2",
+      "chapter": 4,
+      "source_pages": "본문 252–253 / PDF 268–269",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.4.3",
+      "chapter": 4,
+      "source_pages": "본문 253–254 / PDF 269–270",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.4.4",
+      "chapter": 4,
+      "source_pages": "본문 254–255 / PDF 270–271",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.5.1",
+      "chapter": 4,
+      "source_pages": "본문 256–259 / PDF 272–275",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.5.2",
+      "chapter": 4,
+      "source_pages": "본문 259–260 / PDF 275–276",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.6.1",
+      "chapter": 4,
+      "source_pages": "본문 260–262 / PDF 276–278",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.6.2",
+      "chapter": 4,
+      "source_pages": "본문 262–265 / PDF 278–281",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.6.3",
+      "chapter": 4,
+      "source_pages": "본문 265–267 / PDF 281–283",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.6.4",
+      "chapter": 4,
+      "source_pages": "본문 267–268 / PDF 283–284",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.6.5",
+      "chapter": 4,
+      "source_pages": "본문 268–273 / PDF 284–289",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.7.1",
+      "chapter": 4,
+      "source_pages": "본문 273–274 / PDF 289–290",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.7.2",
+      "chapter": 4,
+      "source_pages": "본문 274–275 / PDF 290–291",
+      "initial_verdict": "correct_minor_terminology"
+    },
+    {
+      "id": "4.7.3",
+      "chapter": 4,
+      "source_pages": "본문 275–276 / PDF 291–292",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.8.1",
+      "chapter": 4,
+      "source_pages": "본문 276–283 / PDF 292–299",
+      "initial_verdict": "pass"
+    },
+    {
+      "id": "4.8.2",
+      "chapter": 4,
+      "source_pages": "본문 283–284 / PDF 299–300",
+      "initial_verdict": "pass"
+    }
+  ],
+  "korean_skills": {
+    "repository": "https://github.com/DaleSeo/korean-skills",
+    "commit": "ae12ba27982ebeff03b46dc738365aaa34260d9a",
+    "pipeline": [
+      "humanizer",
+      "grammar-checker",
+      "style-guide"
+    ],
+    "scope": "번역투·명사 압축·문법·전문 용어·서술체와 요청체 구분; 수치·조건·고유명사 보존"
+  },
+  "corrections": [
+    "원문에 없는 시작10분·최소2개 기준 제거",
+    "저자 분류와 편집 적용을 분리",
+    "신체 능력 부족과 능력 한계의 표현 정정",
+    "원문에 없는 라이브 게임 한정 제거",
+    "소·중·고과금 유저형 서버 회전 명칭 복원",
+    "무거움·느림의 실패 설명을 편집자 가설로 구분",
+    "완결감의 원문 위치를 본문164–165/PDF180–181로 보강",
+    "매몰 비용과 매몰 비용 오류 구분",
+    "일일·주간 완결점을 모두 필수로 확대하지 않도록 원문의 일일 또는 주간 선택 관계 보강"
+  ],
+  "additions": [
+    "신 제거/신 창조의 보스 위상 설계 관점",
+    "서브 캐릭터·정보 발견 경로",
+    "군중심리 모범의 1–2명/3–5명 예시와 한계",
+    "F2P·PVE·PVP·VIP 약어 풀이",
+    "용어 표기와 한국어 검수 가이드",
+    "LTV·게임 수명 질문을 s05로 연결하는 색인과 용어 풀이"
+  ],
+  "source_review_erratum": "2장 감사의 감정 우선 설계 오류 후보는 시작하며 PDF15를 추가 대조하여 철회; 기존 게임 감정 보강 예시와 전체 기획 지침의 적용 층위를 분리하고 출처만 보강",
+  "visual_pdf_pages": [
+    15,
+    79,
+    82,
+    138,
+    151,
+    167,
+    187,
+    188,
+    190,
+    191,
+    192,
+    204,
+    248,
+    293,
+    294,
+    299,
+    300
+  ],
+  "limitations": [
+    "모든 문장·사진·도판의 전수 검증은 아님",
+    "일부 긴 수식·VIP 행 라벨 OCR 한계는 기존 기록에 보존",
+    "심리 연구의 현대 재현성·현행 시장·실제 게임 성과 검증은 범위 밖",
+    "새 11단계 후속 FLOW나 호스트 GUI 시험을 수행한 기록이 아님"
+  ],
+  "evidence_directory": "../../../../_workspace/revalidation/2026-10-14/content-and-korean"
+}

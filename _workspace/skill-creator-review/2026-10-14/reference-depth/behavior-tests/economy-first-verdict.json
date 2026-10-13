@@ -1,0 +1,10 @@
+{
+  "case": "economy",
+  "subject": "candidate-r1",
+  "verdict": "fail",
+  "reason": "외형만 유료 정책을 외형 가격·할인까지 자동 금지하는 조건으로 확대",
+  "independent_evaluation": "../final-review/behavior-review.json",
+  "original_answer_preserved": true,
+  "repair": "SKILL의 사용자 정책 해석에서 판매대상/플레이효과와 가격/혜택조건의 적용범위를 분리",
+  "scope": "모든 게임의 할인을 허용하는 새정책이 아님; 사용자 확정 범위 보존"
+}

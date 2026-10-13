@@ -1,0 +1,33 @@
+{
+  "task": "game-design-for-immersion 독립 사용 시험",
+  "date": "2026-10-13",
+  "constraints_observed": {
+    "bundle_only": true,
+    "external_lookup": false,
+    "pdf_read": false,
+    "install": false,
+    "gui": false,
+    "source_modification": false,
+    "recursive_delegation": false
+  },
+  "bundle_root": "/var/folders/99/kpfx0mdj3fvbczqpbncjl0bm0000gn/T/book_skill_work-89870/revised/game-design-for-immersion",
+  "files": [
+    {"path": "SKILL.md", "scope": "전체", "purpose": "사용 규칙, 장·절 체계, 출처 범위"},
+    {"path": "references/index.md", "scope": "전체", "purpose": "질문별 라우팅, 예전 ch07 대응"},
+    {"path": "references/coverage.md", "scope": "관련 장·절 표와 본문/PDF 쪽 범위", "purpose": "원서 절·쪽 확인"},
+    {"path": "references/figures-and-formulas.md", "scope": "전체", "purpose": "표 4.1·4.10·4.11 위치, 수치, 검산"},
+    {"path": "source.json", "scope": "상단 메타데이터와 관련 장·절 항목", "purpose": "판본, 쪽 규약, 검수 상태 확인"},
+    {"path": "chapters/ch02-player-emotion.md", "scope": "전체", "purpose": "기쁨과 사회 교류 장 맥락"},
+    {"path": "chapters/ch03-game-experience.md", "scope": "전체", "purpose": "2분 경험, 기조, 감정 곡선"},
+    {"path": "chapters/ch04-rewards-growth-monetization.md", "scope": "전체", "purpose": "성장·유통·경제 장 맥락"},
+    {"path": "references/sections/s03-emotion.md", "scope": "전체", "purpose": "기쁨의 경로, 노력과 목표 결과"},
+    {"path": "references/sections/s05-social-interaction.md", "scope": "전체", "purpose": "친구 기능과 공통 경험"},
+    {"path": "references/sections/s06-change.md", "scope": "전체", "purpose": "2~3분 경험과 고강도 뒤 회복"},
+    {"path": "references/sections/s07-emotion-curves.md", "scope": "전체", "purpose": "짧은 경험의 곡선·회복·끝"},
+    {"path": "references/sections/s08-tone-stage.md", "scope": "전체", "purpose": "가벼움/무거움, 느림/빠름, 다중 캐릭터"},
+    {"path": "references/sections/s11-growth.md", "scope": "전체", "purpose": "표 4.1 주기"},
+    {"path": "references/sections/s13-reward-placement.md", "scope": "전체", "purpose": "고강도 뒤 안정 구간 보조 근거"},
+    {"path": "references/sections/s14-trade-social.md", "scope": "전체", "purpose": "완전 귀속과 유통 불가 구분"},
+    {"path": "references/sections/s18-economy-curves.md", "scope": "전체", "purpose": "표 4.10·4.11 맥락과 행 예시"}
+  ]
+}

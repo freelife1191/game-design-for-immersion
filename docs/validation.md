@@ -1,0 +1,63 @@
+# 검수와 테스트
+
+책의 근거가 정확하고 프로젝트 조건을 보존한 답변인지 확인합니다. 정적 파일 검사·독립 사용 시험·실제 호스트 호출·게임 플레이테스트는 서로 다른 범위입니다.
+
+## 답변 확인
+
+| 확인 대상 | 통과 속성 | 다시 볼 신호 |
+|---|---|---|
+| 자료 선택 | 실제 읽은 자료와 필요한 원서 장·절·쪽을 제시 | 색인 한 줄만으로 조건 단정 |
+| 귀속 | 책 설명·사례 재구성·새 제안 구분 | 새 가정을 저자 원칙으로 소개 |
+| 정책 | 확정 유지·미정 대안과 영향 | 결정 전 수치·가격·정책 확정 |
+| 경험 | 행동·자극·피드백·고저 연결 | 긴장·보상을 계속 늘리기만 함 |
+| 수치 | 초기값·단위·범위·산식·검산 | 주기/시작점, 도달/누적 혼동 |
+| 불확실성 | OCR·원문 모호함·자료 부재 구분 | 훼손 기호나 표 행을 추정 복원 |
+
+## 원문 대조와 수치
+
+원본은 [source.json](../.agents/skills/game-design-for-immersion/source.json)의 SHA-256으로 식별합니다. [목차 대응](../.agents/skills/game-design-for-immersion/references/coverage.md)의 장·절·쪽 범위를 확인하고, 같은 쪽에 두 절이 시작하는 경우 단락 위치를 좁힙니다. 본문 쪽에 16을 더한 PDF 쪽수는 앞부분 로마숫자에 적용하지 않습니다.
+
+표 4.1에서는 초기값, 반복 주기, 첫 추가 상승을 각각 확인합니다. 표 4.10에서는 일수×하루당 상승량을 누적하고 시작 레벨과 도달 레벨을 구분합니다. 표 4.11에서는 능력 비중과 비용 비중을 별도로 합산합니다. 원문 사례의 가격·비율·일수는 현재 서비스의 기본값이 아닙니다. [수치 참조](../.agents/skills/game-design-for-immersion/references/figures-and-formulas.md)를 읽고 필요한 원본 표를 확인하세요.
+
+## 증거 수준 <a id="evidence-levels"></a>
+
+| 수준 | 확인하는 것 | 확인하지 못하는 것 |
+|---|---|---|
+| 정적 검사 | 형식·실제 경로·링크·앵커·스캔 범위·해시 | 내용의 정확성·사용성 |
+| 원문 검수 | 전체 단위의 핵심 주장·조건·귀속과 선택한 도표 | 모든 문장·그림의 전수 확인 |
+| 독립 사용 시험 | 새 컨텍스트의 조회·적용·비판·오류 회귀 | 모든 향후 요청·모델 조합 |
+| 실제 Codex 호출 | 격리 복사본 읽기·요청 수행·정상 종료·해시 일치 | GUI 발견·다른 호스트 실행 |
+| 게임 플레이테스트 | 실제 플레이 행동·경험·실패·복귀 | 문서 검사만으로 대체 불가 |
+
+## 제작 기록과 다시 검사하기
+
+2026-10-13의 [구조 검토 기록](../output/skill-review/2026-10-13/structure-review/report.md)은 당시 범위의 증거입니다. 새 후속 실행은 `_workspace/harness/book-to-skill-followup/<run-id>/`에 입력·감사·원래 답변·판정·고정 해시·호스트 로그를 보존합니다. 최종 상태는 해당 run의 `run.json`과 `verify`/`finalize` 결과로 확인합니다.
+
+프로젝트 루트에서 정적 검사를 실행할 수 있습니다. Python 3.11 이상, PyYAML·markdown-it-py가 필요합니다. 기본 학습에는 검사 환경이 필요하지 않습니다. 첫 번째 명령의 후속 검사 도구는 저장소에 포함되어 있습니다. 두 번째 원문 검사는 별도로 설치한 [book-to-skill](https://github.com/virgiliojr94/book-to-skill) 변환기와 로컬 원본 PDF가 필요합니다. 원본과 변환기는 이 저장소에 포함하지 않습니다.
+
+```bash
+python3 -B .agents/skills/book-to-skill-followup/scripts/check_package.py   --project "$PWD" --skill .agents/skills/game-design-for-immersion   --documents README.md --documents docs
+python3 -B output/skill-review/2026-10-13/structure-review/validate_bundle.py   .agents/skills/game-design-for-immersion
+```
+
+검사 기록 이후 파일이 바뀌면 이전 해시의 통과를 현재 버전의 결과로 재사용하지 않습니다. 후속 FLOW는 최종 내용 고정 후 사용 호스트 한 번을 호출하고, 그 뒤 검증 결과를 run에 저장합니다. 호출 뒤 출처 파일을 수정해 고정 버전을 바꾸지 않습니다.
+
+## 최근 재검수와 한국어 검수 <a id="latest-review"></a>
+
+2026-10-14에 원서 4장·79개 세부 목차의 핵심 주장과 조건을 다시 대조하고, 지식 자료와 사용자 가이드의 문장·용어를 검수했습니다. 원문에 없는 시간 기준, 저자와 편집자의 설명이 섞인 부분, 용어 혼용을 보정했습니다. 자세한 범위와 보완 내용은 [재검수 기록](../.agents/skills/game-design-for-immersion/references/revalidation-2026-10-14.json)에 있습니다. 과거의 실제 호스트 호출 기록은 당시 버전의 증거로 보존합니다. 이후의 [skill-creator 구조·참조 심층 검토](../_workspace/skill-creator-review/2026-10-14/reference-depth/report.md)는 세부 기법·조건·예외의 충실도와 선택적 자료 읽기를 별도로 점검합니다.
+
+한국어는 [korean-skills](https://github.com/DaleSeo/korean-skills)의 **humanizer → grammar-checker → style-guide** 순서로 검토합니다. 먼저 어색한 문장을 다듬고, 문법·띄어쓰기를 확인한 뒤, 용어와 문체의 일관성을 점검합니다. 이는 문장 검수 절차이며 책 내용의 정확성을 원문 대조 대신 보증하지는 않습니다.
+
+| 확인할 것 | 적용 기준 |
+|---|---|
+| 전문 용어 | 원서의 절 제목·고유 분류명은 보존하고, 짧은 표현과 대응어는 [확장 용어집](../.agents/skills/game-design-for-immersion/references/glossary-extended.md)에 연결합니다. |
+| 문체 | 설명문은 서술체, 복사할 요청문은 요청체로 구분합니다. 문장 리듬을 바꾸려고 격식 수준을 임의로 섞지 않습니다. |
+| 의미 보존 | 수치·단위·조건·부정 표현·고유명사·직접 인용·귀속을 수정 전후로 비교합니다. |
+| 숫자와 단위 | `3분`, `10개` 같은 숫자와 단위의 붙임은 허용 표기이므로 오류로 일괄 처리하지 않습니다. [국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=97&pageIndex=1&qna_seq=335208)을 기준으로 판단합니다. |
+| 확인되지 않은 주장 | 문장이 매끄러워져도 가설을 사실로 바꾸거나, 새 적용안을 저자의 원칙으로 바꾸지 않습니다. |
+
+## 공유와 배포 <a id="sharing"></a>
+
+스킬의 합성 지식과 원문 PDF·전체 추출물을 구분합니다. 공유하려는 자료의 권리와 범위를 확인하고, 원문·전체 추출 텍스트·검수 캡처를 공개 배포 묶음에 포함하지 않습니다. run 폴더는 개인 검수 증거용이며 지식 스킬 폴더의 필수 구성물이 아닙니다.
+
+남은 OCR 수식 기호와 일부 VIP 행 라벨의 한계는 스킬 출처와 상세 자료에 기록되어 있습니다. 심리 효과·현재 시장·실제 성과가 필요한 요청에는 별도 근거를 확보합니다.

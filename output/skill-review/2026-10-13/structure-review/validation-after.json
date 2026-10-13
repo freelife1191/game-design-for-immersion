@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "whole skill bundle",
+  "checks": {
+    "markdown_files_scanned": 30,
+    "links_checked": 287,
+    "security_findings": [],
+    "broken_links": [],
+    "placeholders": [],
+    "unexpected_japanese_text": [],
+    "chapter_files": 4,
+    "section_files": 18,
+    "subsections": 79,
+    "source_claims_checked": 85,
+    "section_header_ranges_checked": 18,
+    "token_estimates": {
+      "SKILL.md": 1974,
+      "glossary.md": 1492,
+      "patterns.md": 1588,
+      "cheatsheet.md": 992
+    },
+    "total_markdown_token_estimate": 50181,
+    "table_arithmetic": {
+      "days": "55",
+      "cumulative_level_gain": "100.0",
+      "cost_rmb": "500000",
+      "ability_and_cost_percent": "100"
+    },
+    "growth_periods": {
+      "장비": {
+        "initial": 0,
+        "period": 3,
+        "first_additional": 3
+      },
+      "스킬": {
+        "initial": 1,
+        "period": 5,
+        "first_additional": 6
+      },
+      "각성": {
+        "initial": 0,
+        "period": 10,
+        "first_additional": 10
+      }
+    },
+    "glossary_terms": 93,
+    "source_sha256": "matched"
+  },
+  "errors": []
+}

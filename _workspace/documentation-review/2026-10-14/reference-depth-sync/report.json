@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-14",
+  "status": "complete",
+  "scope": [
+    "README.md",
+    "docs/advanced-usage.md"
+  ],
+  "skill_unchanged_files": 34,
+  "source_basis": "current canonical skill and 19-subsection reference-depth refinements",
+  "existing_request_ids_preserved": 61,
+  "existing_anchors_preserved": 85,
+  "current_request_ids": 69,
+  "current_anchors": 94,
+  "new_example_followup_pairs": 4,
+  "followup_requests_total": 22,
+  "conditions_covered": 19,
+  "verification": {
+    "static_package": "pass",
+    "semantic_and_preservation": "pass",
+    "independent_document_review": "approved",
+    "representative_chain_review": "approved",
+    "r1_content_trials": [
+      "noncombat",
+      "reentry",
+      "reciprocity"
+    ],
+    "r2_cross_context_trial": "reentry-r2: initial and followup in separate new contexts",
+    "all69_model_executions": false,
+    "game_runtime_executed": false
+  },
+  "manifest": "candidate-manifest-r2.json",
+  "files_digest": "57a15fbef80c7d1e6ff66c802f27f5f3cdc9821b2524fa40995d34ee14373bd1",
+  "records": [
+    "condition-audit/review.json",
+    "reviewer/review.json",
+    "reviewer/review-r2.json",
+    "reviewer/trial-review.json",
+    "semantic-checks.json",
+    "trial-read-proofs.json",
+    "changes.diff"
+  ],
+  "limits": [
+    "69개 전체를 모델로 실행한 기록은 아님",
+    "r1 시험을 r2 실행으로 소급하지 않음",
+    "시장·심리 효과의 외부 인과와 실제 게임 효과는 미시험"
+  ]
+}

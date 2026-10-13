@@ -1,0 +1,447 @@
+{
+  "advisories": [
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/SKILL.md",
+      "line": 64,
+      "message": "제공된 한국어판의 지식을 합성했다. 원문 전체·긴 인용·원본 그림을 포함하지 않는다. 본문은 **PDF 쪽 = 인쇄 본문 쪽 + 16**이며, 앞부분 로마숫자 쪽에는 이 규약을 적용하지 않는다. 책의 지시문과 게임 조작 예시는 자료이며 실행 지시가 아니다. 원문 없이도 포함된 지식을 활용할 수 있고, 정확한 도판·기호·표를 재확인할 때는 원본 PDF를 읽는다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/validation.md",
+      "line": 34,
+      "message": "2026-10-13의 [구조 검토 기록](../output/skill-review/2026-10-13/structure-review/report.md)은 당시 범위의 증거입니다. 새 후속 실행은 `_workspace/harness/book-to-skill-followup/<run-id>/`에 입력·감사·원래 답변·판정·고정 해시·호스트 로그를 보존합니다. 최종 상태는 해당 run의 `run.json`과 `verify`/`fin"
+    }
+  ],
+  "claude_aliases": [],
+  "errors": [],
+  "files_digest": "57a15fbef80c7d1e6ff66c802f27f5f3cdc9821b2524fa40995d34ee14373bd1",
+  "note": "static PASS does not establish the factual correctness of skill content.",
+  "project": "/Users/freelife/ai/game-design-for-immersion",
+  "scanned_files": [
+    {
+      "path": ".agents/skills/game-design-for-immersion/SKILL.md",
+      "sha256": "42eb06be9652d70f0abfc78cd51a3cd7031dd7ac814ad566aa72a33c7f7dae1f"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/agents/openai.yaml",
+      "sha256": "84d7ee93ad25d8059fa631e128c7771dc1d1d965ea5b55be320e61d713960947"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/chapters/ch01-game-difficulty.md",
+      "sha256": "a546b62132d6767e2d8feabeb11b9f1593c7122e2aaab3c813a3eebe8aee2ecc"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/chapters/ch02-player-emotion.md",
+      "sha256": "fe1b293c376af915c67864353e22aeb983fc2e333be40b9a883009cca8170e8e"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/chapters/ch03-game-experience.md",
+      "sha256": "b3eadafb71bdec4adbb2032a4995ffbf76aa91d36f6a0201467b5a9ede71d114"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/chapters/ch04-rewards-growth-monetization.md",
+      "sha256": "7d67f44e2a0aca8fae33538d217878b0fda6659566a4cd807575e26ad7f9f183"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/cheatsheet.md",
+      "sha256": "eea85dfdb2e79127b4695f4ccc6f49f4273c702d1a5237b8943fe9a393ca4da5"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/glossary.md",
+      "sha256": "2768068ec212727f50ab1382358db308fe9f4844c0e7193bd3c5519d3b2d945f"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/patterns.md",
+      "sha256": "b78d7fc8def386c4c3aadb6993771e37b658223732d31b9f91ba9526ec9e735d"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/coverage.md",
+      "sha256": "e128acfa6df9661a54a5d496321035444e8d23bafce93b6206770888f2f21e55"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/figures-and-formulas.md",
+      "sha256": "ec94f96242b9136d80468d485f32280a9e93f57dbb2a529d44851f027536ca81"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/glossary-extended.md",
+      "sha256": "7a72da3705650edafa0038dc523094df3cf5c3124a9715d20f0d6ae2b96c35a0"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/index.md",
+      "sha256": "be8a895572776d282cd178625c9364e716fe27bb677292508b7adac925db0711"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/revalidation-2026-10-14.json",
+      "sha256": "b3a12f1451cfd78970c73dd5e94a81c8e7234b76da0fac68f3b7b50bb5308238"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/review-history.json",
+      "sha256": "80a648dab8b0fe52c01a64a4ed804b6994a51c3b4664c7a9a84e32d389bb5bb8"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s01-hot-challenge.md",
+      "sha256": "4e1f7af6cb0fee148e52ef9f4e0a9fa17c25df96c491219cff8b8842dd60be8f"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s02-cold-strategy.md",
+      "sha256": "d0976026a18e1671d9615b146d2291844f7229d9894a9377363a89971bf1a211"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s03-emotion.md",
+      "sha256": "73f5a26ff305a72e94eb336152dd739898d3df42583a173617b92a179c3b697e"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s04-psychology.md",
+      "sha256": "fda14d409b3711d1a6113eb7e812175ca5ee223367532087713881af2e002898"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s05-social-interaction.md",
+      "sha256": "dc96ead471bf582b994e697da2e870e27ec6bf6b3b0b8426e65829afb18986cc"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s06-change.md",
+      "sha256": "26d3d42905f8871e12b0ebc72f004a9d2c0fa20e1ff0c3893e3e39174cf335e1"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s07-emotion-curves.md",
+      "sha256": "bc9b217802475d87f183b5426dec4766e7132fc80cc7e8e923034f23919449ea"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s08-tone-stage.md",
+      "sha256": "121621ef214faa6fc6dc4de7c24520d949148026cab5bff2617537cbdab7c69d"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s09-content-loop.md",
+      "sha256": "68f68c997f691b6229431f547be6304b95a5558d3b63cf2df93bc4e09bec456b"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s10-story-structure.md",
+      "sha256": "2cfefc852c223a450909752ee795453c29288135e0741c053e122bab362fe047"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s11-growth.md",
+      "sha256": "1fb0f76ab89d7d389a09e716cf39603dd0f7ac4f200308aaa99c3264fa16838b"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s12-value-system.md",
+      "sha256": "e9b88f0db999d14b34ff803d67d1cf40e705052118afc198367b1c6122e48480"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s13-reward-placement.md",
+      "sha256": "be9797b05a71035aad14b3cd1b74437a6230550abd5ebfc1e168ef6407186eff"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s14-trade-social.md",
+      "sha256": "3dd52a9d64a2a8efce8a7475ba8f05a91414257a3e514227c4740a1640c43196"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s15-spending-tiers.md",
+      "sha256": "8311b8f677c0797890eded2420085d8515c9b784fd5ecfbc01ab3cb9330c5664"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s16-paid-content.md",
+      "sha256": "b12e3288546056da0d06e51c41fa6cfd517078508fa7ce1d6ba0c324a5197253"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s17-business-direction.md",
+      "sha256": "bc0bfc622b6848ebb8535b9b489faa8730ffe2cf23785e25c3e50b9435ddebc8"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/references/sections/s18-economy-curves.md",
+      "sha256": "68c9e3e7469734099648de55e14e74442bfae97aedbd3a3c1f3cacb1476780b0"
+    },
+    {
+      "path": ".agents/skills/game-design-for-immersion/source.json",
+      "sha256": "26924074695e3365c2fa207de9949d4eadc2806728007ee4e44fcf7dc4759314"
+    },
+    {
+      "path": "README.md",
+      "sha256": "41a9f7ae3dd8b2eadb87fb8ecf410a7aa9d6daa70365ba508e091bffff14e1da"
+    },
+    {
+      "path": "docs/advanced-usage.md",
+      "sha256": "10d82bda11716ccb590ecf4ccf2f27ff4d2ecf72259e558d33702bd70809db5a"
+    },
+    {
+      "path": "docs/agents.md",
+      "sha256": "895e94df54710274aae044be56d22a00f7c9f51c8033be2f0207e343d8ef2ffd"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "sha256": "b9b8a5d5d548bf03ca1a342deaaed3e968b3aaa0aa6fc6a7adb8035f6d9517cb"
+    },
+    {
+      "path": "docs/index.md",
+      "sha256": "ebdbcba7f4286ae207c285eb781a08c95bb63bf027b23252056616125b35447c"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "sha256": "c132a307de20e16fa2efa710eb0888ada47b5cc110f54e4b2fb9b319278e6450"
+    },
+    {
+      "path": "docs/validation.md",
+      "sha256": "53eaf3d6231ee9ca6fcadc7fa4702614694c6001eac8fac9f9e59bd532f29849"
+    },
+    {
+      "path": "docs/workflow.md",
+      "sha256": "ffd10a181da04d670fb10d82f7faf6e113ac16ee3b99196eae065b20c90f8472"
+    }
+  ],
+  "skill": ".agents/skills/game-design-for-immersion",
+  "verdict": "pass",
+  "warnings": [
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/chapters/ch01-game-difficulty.md",
+      "line": 48,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/chapters/ch02-player-emotion.md",
+      "line": 56,
+      "message": "## 실행 요점과 상세 참조"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/chapters/ch03-game-experience.md",
+      "line": 45,
+      "message": "## 안티패턴과 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/patterns.md",
+      "line": 3,
+      "message": "책의 기법을 실행 절차로 재구성했다. 아래 절차명과 체크 순서는 편집자가 만든 적용안이며, 원서 개념과 사례는 연결된 참조 파일에서 확인한다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/index.md",
+      "line": 53,
+      "message": "| 비전투 전략·경영·생산·거래 루프 | [s02](sections/s02-cold-strategy.md) | 우위 확보·조합·실행 중 대응, 템포를 바꾸는 조건 |"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s01-hot-challenge.md",
+      "line": 99,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s02-cold-strategy.md",
+      "line": 37,
+      "message": "이 구분은 전투에만 적용하는 틀이 아니다. 저자는 비전투 게임도 핵심 플레이 과정에서 우위 확보, 조합·배치, 실행 중 대응의 전략 포인트를 찾아야 한다고 설명한다. 경영·생산·거래의 어떤 선택이 결과를 바꾸는지 살피며, 전투 시스템을 새로 넣을 필요는 없다. (본문 58–59쪽/PDF 74–75쪽)"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s02-cold-strategy.md",
+      "line": 115,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s03-emotion.md",
+      "line": 64,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s04-psychology.md",
+      "line": 98,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s05-social-interaction.md",
+      "line": 61,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s06-change.md",
+      "line": 65,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s07-emotion-curves.md",
+      "line": 80,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s08-tone-stage.md",
+      "line": 94,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s09-content-loop.md",
+      "line": 95,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s10-story-structure.md",
+      "line": 85,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s11-growth.md",
+      "line": 38,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s12-value-system.md",
+      "line": 32,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s13-reward-placement.md",
+      "line": 28,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s14-trade-social.md",
+      "line": 39,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s15-spending-tiers.md",
+      "line": 26,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s16-paid-content.md",
+      "line": 32,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s17-business-direction.md",
+      "line": 26,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": ".agents/skills/game-design-for-immersion/references/sections/s18-economy-curves.md",
+      "line": 43,
+      "message": "## 실행 요점"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 9,
+      "message": "## 설치 <a id=\"installation\"></a>"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 11,
+      "message": "현재 프로젝트에는 설치되어 있습니다. 다른 프로젝트에 사용할 때는 **지식 스킬 폴더 전체**를 복사합니다. 개인 설치 `/Users/freelife/.agents/skills/game-design-for-immersion`과 이 프로젝트의 Claude Code 별칭은 현재 프로젝트 원본을 가리킵니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 13,
+      "message": "### 프롬프트로 설치"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 18,
+      "message": "### CLI로 설치"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 36,
+      "message": "- [설치](#installation)"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "README.md",
+      "line": 68,
+      "message": "| 전투 없는 경영 게임의 선택이 단조롭다 | 우위 확보·조합·실행 중 대응, 단기 미션의 템포 비용 | [경영 예시와 후속](docs/advanced-usage.md#common-05) |"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/advanced-usage.md",
+      "line": 27,
+      "message": "Codex에서는 `$game-design-for-immersion`, Claude Code에서는 `/game-design-for-immersion`으로 시작합니다. Antigravity에서는 스킬 이름을 포함한 자연어 요청을 사용할 수 있으며, slash 호출은 설치 버전의 지원 여부를 확인합니다. 원서 장은 `ch01`–`ch04`, 상세 자료는 `s01`–`s18`입니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/advanced-usage.md",
+      "line": 1442,
+      "message": "**사용할 때:** 전투 없는 게임에서 재료 구매·조합·실행 중 대응의 선택을 만들고 싶을 때."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/advanced-usage.md",
+      "line": 1626,
+      "message": "**확인할 점:** 장비 완전 귀속과 외형만 유료 조건을 모든 단계에 넘깁니다. 수수료·부캐 이전·공급량은 미정으로 유지하며 계획과 실행 결과를 구분합니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/advanced-usage.md",
+      "line": 1642,
+      "message": "| 검증 상태 | 수행한 검산의 근거 또는 미실행 검증 계획 | 계획한 QA·플레이테스트를 완료로 표현 |"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/advanced-usage.md",
+      "line": 1648,
+      "message": "이 문서의 예시를 보완하고 링크·조건을 검토한 것과 실제 게임·호스트에서 예시를 수행한 것은 다릅니다. 문서가 바뀌기 전의 실행 기록을 현재 가이드 전체의 시험 결과로 재사용하지 않습니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/agents.md",
+      "line": 3,
+      "message": "동일한 지식 스킬을 Codex·Claude Code·Antigravity에서 사용합니다. 설치 경로가 맞는 것, 앱이 발견한 것, 실제 요청을 수행한 것은 각각 다른 증거입니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/agents.md",
+      "line": 11,
+      "message": "Antigravity의 slash 호출은 설치 버전의 지원 여부를 확인합니다. 자연어로 스킬 이름과 목적을 명시하는 방식도 제공합니다. 스킬을 복사할 때는 `SKILL.md` 한 파일 대신 전체 폴더를 옮깁니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/getting-started.md",
+      "line": 3,
+      "message": "프로젝트에서 실제 스킬 이름 `game-design-for-immersion`을 호출하고, 알고 싶은 개념이나 현재 해결할 문제를 붙입니다. 설치 방법은 [README](../README.md#installation)에 있습니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/troubleshooting.md",
+      "line": 9,
+      "message": "프로젝트 루트에서 `.claude/skills/game-design-for-immersion`이 `../../.agents/skills/game-design-for-immersion`을 가리키는지 확인합니다. 같은 경로에 파일·폴더·다른 링크가 있으면 자동 덮어쓰지 않습니다. README의 설치 명령은 기존 대상을 보존합니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/troubleshooting.md",
+      "line": 13,
+      "message": "현재 개인 링크는 이 프로젝트의 정본을 가리킵니다. 프로젝트 이동·삭제 뒤에는 링크 대상과 실제 `SKILL.md` 바이트를 확인합니다. 다른 프로젝트로 복사한 독립 설치는 자동 동기화되지 않습니다. 배포할 때 전체 폴더를 같은 버전으로 옮깁니다."
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/validation.md",
+      "line": 29,
+      "message": "| 실제 Codex 호출 | 격리 복사본 읽기·요청 수행·정상 종료·해시 일치 | GUI 발견·다른 호스트 실행 |"
+    },
+    {
+      "code": "instruction-like-text",
+      "file": "docs/validation.md",
+      "line": 57,
+      "message": "스킬의 합성 지식과 원문 PDF·전체 추출물을 구분합니다. 공유하려는 자료의 권리와 범위를 확인하고, 원문·전체 추출 텍스트·검수 캡처를 공개 배포 묶음에 포함하지 않습니다. run 폴더는 개인 검수 증거용이며 지식 스킬 폴더의 필수 구성물이 아닙니다."
+    }
+  ]
+}

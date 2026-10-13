@@ -1,0 +1,170 @@
+[
+  {
+    "path": ".agents/skills/game-design-for-immersion/SKILL.md",
+    "sha256": "42eb06be9652d70f0abfc78cd51a3cd7031dd7ac814ad566aa72a33c7f7dae1f"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/agents/openai.yaml",
+    "sha256": "84d7ee93ad25d8059fa631e128c7771dc1d1d965ea5b55be320e61d713960947"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/chapters/ch01-game-difficulty.md",
+    "sha256": "a546b62132d6767e2d8feabeb11b9f1593c7122e2aaab3c813a3eebe8aee2ecc"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/chapters/ch02-player-emotion.md",
+    "sha256": "fe1b293c376af915c67864353e22aeb983fc2e333be40b9a883009cca8170e8e"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/chapters/ch03-game-experience.md",
+    "sha256": "b3eadafb71bdec4adbb2032a4995ffbf76aa91d36f6a0201467b5a9ede71d114"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/chapters/ch04-rewards-growth-monetization.md",
+    "sha256": "7d67f44e2a0aca8fae33538d217878b0fda6659566a4cd807575e26ad7f9f183"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/cheatsheet.md",
+    "sha256": "eea85dfdb2e79127b4695f4ccc6f49f4273c702d1a5237b8943fe9a393ca4da5"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/glossary.md",
+    "sha256": "2768068ec212727f50ab1382358db308fe9f4844c0e7193bd3c5519d3b2d945f"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/patterns.md",
+    "sha256": "b78d7fc8def386c4c3aadb6993771e37b658223732d31b9f91ba9526ec9e735d"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/coverage.md",
+    "sha256": "e128acfa6df9661a54a5d496321035444e8d23bafce93b6206770888f2f21e55"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/figures-and-formulas.md",
+    "sha256": "ec94f96242b9136d80468d485f32280a9e93f57dbb2a529d44851f027536ca81"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/glossary-extended.md",
+    "sha256": "7a72da3705650edafa0038dc523094df3cf5c3124a9715d20f0d6ae2b96c35a0"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/index.md",
+    "sha256": "be8a895572776d282cd178625c9364e716fe27bb677292508b7adac925db0711"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/revalidation-2026-10-14.json",
+    "sha256": "b3a12f1451cfd78970c73dd5e94a81c8e7234b76da0fac68f3b7b50bb5308238"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/review-history.json",
+    "sha256": "80a648dab8b0fe52c01a64a4ed804b6994a51c3b4664c7a9a84e32d389bb5bb8"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s01-hot-challenge.md",
+    "sha256": "4e1f7af6cb0fee148e52ef9f4e0a9fa17c25df96c491219cff8b8842dd60be8f"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s02-cold-strategy.md",
+    "sha256": "d0976026a18e1671d9615b146d2291844f7229d9894a9377363a89971bf1a211"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s03-emotion.md",
+    "sha256": "73f5a26ff305a72e94eb336152dd739898d3df42583a173617b92a179c3b697e"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s04-psychology.md",
+    "sha256": "fda14d409b3711d1a6113eb7e812175ca5ee223367532087713881af2e002898"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s05-social-interaction.md",
+    "sha256": "dc96ead471bf582b994e697da2e870e27ec6bf6b3b0b8426e65829afb18986cc"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s06-change.md",
+    "sha256": "26d3d42905f8871e12b0ebc72f004a9d2c0fa20e1ff0c3893e3e39174cf335e1"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s07-emotion-curves.md",
+    "sha256": "bc9b217802475d87f183b5426dec4766e7132fc80cc7e8e923034f23919449ea"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s08-tone-stage.md",
+    "sha256": "121621ef214faa6fc6dc4de7c24520d949148026cab5bff2617537cbdab7c69d"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s09-content-loop.md",
+    "sha256": "68f68c997f691b6229431f547be6304b95a5558d3b63cf2df93bc4e09bec456b"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s10-story-structure.md",
+    "sha256": "2cfefc852c223a450909752ee795453c29288135e0741c053e122bab362fe047"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s11-growth.md",
+    "sha256": "1fb0f76ab89d7d389a09e716cf39603dd0f7ac4f200308aaa99c3264fa16838b"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s12-value-system.md",
+    "sha256": "e9b88f0db999d14b34ff803d67d1cf40e705052118afc198367b1c6122e48480"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s13-reward-placement.md",
+    "sha256": "be9797b05a71035aad14b3cd1b74437a6230550abd5ebfc1e168ef6407186eff"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s14-trade-social.md",
+    "sha256": "3dd52a9d64a2a8efce8a7475ba8f05a91414257a3e514227c4740a1640c43196"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s15-spending-tiers.md",
+    "sha256": "8311b8f677c0797890eded2420085d8515c9b784fd5ecfbc01ab3cb9330c5664"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s16-paid-content.md",
+    "sha256": "b12e3288546056da0d06e51c41fa6cfd517078508fa7ce1d6ba0c324a5197253"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s17-business-direction.md",
+    "sha256": "bc0bfc622b6848ebb8535b9b489faa8730ffe2cf23785e25c3e50b9435ddebc8"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/references/sections/s18-economy-curves.md",
+    "sha256": "68c9e3e7469734099648de55e14e74442bfae97aedbd3a3c1f3cacb1476780b0"
+  },
+  {
+    "path": ".agents/skills/game-design-for-immersion/source.json",
+    "sha256": "26924074695e3365c2fa207de9949d4eadc2806728007ee4e44fcf7dc4759314"
+  },
+  {
+    "path": "README.md",
+    "sha256": "1ec108f1cd748398b53c844b49b88694b89d0fd24ef601868f12570d776bf6fc"
+  },
+  {
+    "path": "docs/advanced-usage.md",
+    "sha256": "df9361518bbf78b631938790428278ae465139c2977f22a536de37ab7bfcacca"
+  },
+  {
+    "path": "docs/agents.md",
+    "sha256": "895e94df54710274aae044be56d22a00f7c9f51c8033be2f0207e343d8ef2ffd"
+  },
+  {
+    "path": "docs/getting-started.md",
+    "sha256": "b9b8a5d5d548bf03ca1a342deaaed3e968b3aaa0aa6fc6a7adb8035f6d9517cb"
+  },
+  {
+    "path": "docs/index.md",
+    "sha256": "ebdbcba7f4286ae207c285eb781a08c95bb63bf027b23252056616125b35447c"
+  },
+  {
+    "path": "docs/troubleshooting.md",
+    "sha256": "c132a307de20e16fa2efa710eb0888ada47b5cc110f54e4b2fb9b319278e6450"
+  },
+  {
+    "path": "docs/validation.md",
+    "sha256": "53eaf3d6231ee9ca6fcadc7fa4702614694c6001eac8fac9f9e59bd532f29849"
+  },
+  {
+    "path": "docs/workflow.md",
+    "sha256": "ffd10a181da04d670fb10d82f7faf6e113ac16ee3b99196eae065b20c90f8472"
+  }
+]
