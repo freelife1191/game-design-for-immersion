@@ -49,6 +49,7 @@
 | RLD, 통과율, 발판·낭떠러지, 랜덤 스테이지 | [s01](sections/s01-hot-challenge.md) | 변수 조합·테스트·선험적 설계의 한계 |
 | 대균열, 쉬운 구간 건너뛰기, 능력 한계·회복 | [s01](sections/s01-hot-challenge.md) | 한계 접근 속도와 주변 난이도 변동 |
 | QTE, 기억형 조작, 공격 방식, 쾌감·대비 | [s01](sections/s01-hot-challenge.md) | 실제 효율과 조작 경험의 차이 |
+| 보스전 설계, 다단계 보스 재도전, 보스 앞 저장 지점 | [s01](sections/s01-hot-challenge.md) → [s07](sections/s07-emotion-curves.md)·[s08](sections/s08-tone-stage.md) → [s13](sections/s13-reward-placement.md) | 보스의 기능, 플레이어 대응에서 거꾸로 짜는 협동 보스의 스킬 시퀀스, 반복 구간 길이와 고조점 복귀, 위험 예감, 메인·서브 난관의 구분 |
 | 비전투 전략·경영·생산·거래 루프 | [s02](sections/s02-cold-strategy.md) | 우위 확보·조합·실행 중 대응, 템포를 바꾸는 조건 |
 | 덱·유닛·행동 순서, 스펙·확률·상성 | [s02](sections/s02-cold-strategy.md) | 전투 외·전·중의 전략, 효용·대가·대응 |
 | 대미지·방어식, 원탁 이론, 생존 시간 | [수치 참조](figures-and-formulas.md) → [s02](sections/s02-cold-strategy.md) | 변수의 역할·수식 범위·원문 기호, 생존 턴 수 모델(식 (1.1)–(1.3)) |
@@ -62,6 +63,8 @@
 | 군중심리·역할·인지부조화·과잉정당화 | [s04](sections/s04-psychology.md) | 저자의 조건·한계와 편집자 적용안 |
 | 공감·보호 스킬·협력, 사회적 촉진·태만 | [s04](sections/s04-psychology.md) → [s05](sections/s05-social-interaction.md) | 개인 기여와 공동 경험의 연결 |
 | 프레이밍·미끼·서열 위치 효과·피크엔드 법칙·앵커링·매몰 비용·완결감 | [s04](sections/s04-psychology.md) | 정보·기준점·완료 지점, 효과의 비보편성 |
+| 뽑기·가챠 확률 연출, 뽑기로 기대감 만들기 | [s04](sections/s04-psychology.md#evaluation) → [s09](sections/s09-content-loop.md) → [s07](sections/s07-emotion-curves.md) | 결과 공개 전 대기, 바로 추첨하지 않고 기대를 유지하는 조건, 룰렛이 절정이 되기 어려운 이유 |
+| 10연속 뽑기 보정, 10연뽑 과금, 천장·확률 공시 | [s04](sections/s04-psychology.md#persuasion-psych) → [s16](sections/s16-paid-content.md) | 10연속 보정의 방식과 전체 확률, 10연뽑을 낀 소비 한도 돌파·<음양사> 사례. 천장·확률 공시 의무는 자료 밖 지식으로 밝힌다 |
 | LTV·게임 수명·장기 지속 | [s05](sections/s05-social-interaction.md) | 책의 ‘게임의 수명(LTV)’ 표기와 사회 교류 맥락. 재무 지표 정의·계산식과 구분 |
 | 친구 기능·길드가 있어도 교류가 없다 | [s05](sections/s05-social-interaction.md) | 같은 목표와 서로의 상황을 바꾸는 기여 |
 | 같은 자극이 지루하다, 2–3분 경험도 곡선이 필요한가 | [3장](../chapters/ch03-game-experience.md) → [s06](sections/s06-change.md) | 감각 순응·변화·시간 단위 |
