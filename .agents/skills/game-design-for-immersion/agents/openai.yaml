@@ -1,4 +1,4 @@
 interface:
   display_name: "몰입을 설계하는 게임 기획"
   short_description: "책의 원칙과 사례로 게임의 난이도·감정·성장·보상 구조를 설계하고 검토"
-  default_prompt: "$game-design-for-immersion을 사용해 필요한 원서 자료를 읽고 내 게임 기획을 검토하며, 책의 근거와 새 적용안을 구분해줘."
+  default_prompt: "$game-design-for-immersion을 사용해 스킬에 포함된 장·상세 절 자료를 읽고 내 게임 기획을 검토하며, 책의 근거와 새 적용안을 구분해줘."
