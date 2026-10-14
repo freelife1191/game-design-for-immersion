@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
+  <title id="title">게임 몰입 설계</title>
+  <desc id="desc">난이도, 감정, 경험, 성장, 경제를 연결하는 흐름을 표현한 배너</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#071a33"/>
+      <stop offset="0.52" stop-color="#12385b"/>
+      <stop offset="1" stop-color="#1d584f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#65d6ff"/>
+      <stop offset="1" stop-color="#a7f3b7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1440" height="360" fill="url(#background)"/>
+  <g fill="none" stroke="url(#line)" stroke-linecap="round" stroke-width="3" opacity="0.78">
+    <path d="M-20 267 C142 200 220 284 354 204 S568 92 700 192 S920 318 1064 192 S1280 95 1460 158"/>
+    <path d="M-15 302 C145 242 256 314 394 246 S611 136 740 220 S962 322 1097 235 S1279 166 1455 196" opacity="0.35"/>
+  </g>
+  <g fill="#d9f7ff" filter="url(#glow)">
+    <circle cx="354" cy="204" r="7"/><circle cx="700" cy="192" r="9"/><circle cx="1064" cy="192" r="7"/>
+  </g>
+  <g fill="#b6f5ca" opacity="0.75">
+    <circle cx="176" cy="91" r="2"/><circle cx="269" cy="136" r="3"/><circle cx="1164" cy="86" r="3"/><circle cx="1284" cy="111" r="2"/>
+  </g>
+  <text x="72" y="78" fill="#a7f3b7" font-family="sans-serif" font-size="18" letter-spacing="3">GAME DESIGN FOR IMMERSION</text>
+  <text x="68" y="140" fill="#f4fbff" font-family="sans-serif" font-size="48" font-weight="700">몰입을 설계하는 게임 기획</text>
+  <text x="72" y="314" fill="#c2e4ec" font-family="sans-serif" font-size="22">난이도 · 감정 · 경험 · 성장과 보상</text>
+</svg>

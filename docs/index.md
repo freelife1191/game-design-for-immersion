@@ -2,6 +2,15 @@
 
 [$game-design-for-immersion](../.agents/skills/game-design-for-immersion/SKILL.md)는 플레이어 경험을 난이도·감정·콘텐츠·성장 구조와 연결하는 지식 스킬입니다. [README](../README.md)만으로 첫 요청을 실행할 수 있습니다.
 
+> [!TIP]
+> 처음 사용하면 [시작하기](getting-started.md)에서 요청문 하나를 복사합니다. 자료의 근거·한계가 중요하면 [검수와 테스트](validation.md)를 먼저 읽습니다.
+
+**탐색:** [README](../README.md) · [가이드 홈](index.md) · [릴리스 가이드](../release/README.md) · [현재 릴리스 노트](../release/2026-10-15-documentation-and-release-guide.md)
+
+| 시작점 | 다음 문서 | 릴리스 |
+|---|---|---|
+| [README](../README.md) | [시작하기](getting-started.md) · [작업 흐름](workflow.md) · [고급 활용](advanced-usage.md) | [릴리스 가이드](../release/README.md) · [현재 노트](../release/2026-10-15-documentation-and-release-guide.md) · [템플릿](../release/_template.md) |
+
 ## 상황별 읽는 순서
 
 | 상황 | 먼저 읽기 | 다음 자료 |
@@ -12,6 +21,20 @@
 | 기존 문제를 진단한다 | [작업 흐름](workflow.md#review) | [판단표](../.agents/skills/game-design-for-immersion/cheatsheet.md) |
 | 수치·원문 근거가 중요하다 | [검수와 테스트](validation.md) | [표·공식](../.agents/skills/game-design-for-immersion/references/figures-and-formulas.md) |
 | 스킬 인식·답변에 문제가 있다 | [문제 해결](troubleshooting.md) | [호스트별 사용](agents.md) |
+
+## 문서 흐름
+
+```mermaid
+flowchart LR
+  A[목표 경험 또는 문제] --> B[시작하기]
+  B --> C[작업 흐름]
+  C --> D[고급 활용 또는 지식 자료]
+  D --> E[근거·정책·검증 범위 확인]
+  E --> F[후속 요청 또는 플레이테스트]
+```
+
+> [!NOTE]
+> 이 흐름은 문서를 읽는 순서입니다. 실제 플레이테스트나 호스트 호출을 수행했다는 뜻은 아닙니다.
 
 ## 지식 자료의 역할
 

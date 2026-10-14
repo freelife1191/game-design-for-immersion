@@ -1,5 +1,18 @@
 # 문제 해결
 
+[README](../README.md) · [가이드 홈](index.md) · [시작하기](getting-started.md) · [호스트별 사용](agents.md) · [검수와 테스트](validation.md) · [릴리스 가이드](../release/README.md)
+
+## 빠른 목차
+
+- [스킬 이름이 보이지 않음](#스킬-이름이-보이지-않음)
+- [자연어 요청으로 스킬이 불리지 않음](#direct-invocation)
+- [원문과 직접 대조하고 싶음](#source-check)
+- [검사가 통과했는데 실제 호출이 안 됨](#검사가-통과했는데-실제-호출이-안-됨)
+- [검사 도구가 없음](#검사-도구가-없음)
+
+> [!TIP]
+> 문제를 재현할 때는 먼저 스킬 이름·설치 경로·새 세션을 확인하고, 그다음 실제 읽기 로그와 종료 코드를 분리해 봅니다.
+
 ## 스킬 이름이 보이지 않음
 
 현재 프로젝트와 [SKILL.md](../.agents/skills/game-design-for-immersion/SKILL.md)의 호출 이름을 확인합니다. `game-design-for-immersion` 폴더 전체가 해당 호스트 경로에 있어야 합니다. 새로 설치했다면 새 세션에서 확인합니다. Codex 목록 발견과 실제 자료 읽기는 따로 확인합니다.

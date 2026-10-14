@@ -2,6 +2,14 @@
 
 프로젝트에서 실제 스킬 이름 `game-design-for-immersion`을 호출하고, 알고 싶은 개념이나 현재 해결할 문제를 붙입니다. 설치 방법은 [README](../README.md#installation)에 있습니다.
 
+[README](../README.md) · [가이드 홈](index.md) · [작업 흐름](workflow.md) · [고급 활용](advanced-usage.md) · [문제 해결](troubleshooting.md) · [릴리스 가이드](../release/README.md)
+
+## 이 문서에서 할 일
+
+1. 첫 학습 또는 첫 설계 요청을 복사해 현재 상황으로 바꿉니다.
+2. 장 번호를 모르면 자료 선택 표로 시작합니다.
+3. 결과에서 근거·확정 정책·미정 선택지를 구분했는지 확인합니다.
+
 ## 첫 학습 요청
 
 ```text

@@ -1,4 +1,34 @@
-# 몰입을 설계하는 게임 기획 스킬
+<a id="몰입을-설계하는-게임-기획-스킬"></a>
+
+<p align="center">
+  <a href="https://github.com/freelife1191/game-design-for-immersion">
+    <img src="docs/assets/banner.svg" alt="게임 몰입 설계 — 난이도·감정·경험·성장·경제를 연결하는 지식 스킬" width="100%">
+  </a>
+</p>
+
+<h1 align="center">몰입을 설계하는 게임 기획 스킬</h1>
+
+<p align="center">
+  플레이어 경험을 행동·규칙·피드백·성장과 연결해 학습하고 설계·검토하는 지식 스킬
+</p>
+
+<p align="center">
+  <a href="https://github.com/freelife1191/game-design-for-immersion"><img src="https://img.shields.io/badge/GitHub-freelife1191%2Fgame--design--for--immersion-181717?logo=github" alt="GitHub 저장소"></a>
+  <a href="https://github.com/freelife1191/game-design-for-immersion/tree/main/.agents/skills/game-design-for-immersion"><img src="https://img.shields.io/badge/skill-game--design--for--immersion-0f766e" alt="스킬 경로"></a>
+  <a href="release/2026-10-15-documentation-and-release-guide.md"><img src="https://img.shields.io/badge/release%20notes-2026--10--15-2563eb" alt="현재 릴리스 노트"></a>
+</p>
+
+<p align="center">
+  <a href="#quick-start">시작하기</a> ·
+  <a href="docs/index.md">문서 가이드</a> ·
+  <a href="docs/advanced-usage.md">고급 활용</a> ·
+  <a href="release/README.md">릴리스 가이드</a>
+</p>
+
+> [!TIP]
+> 처음이면 **[시작하기](#quick-start)**의 요청문을 복사해 현재 기획의 목표·확정·미정 조건만 바꿔 보세요. 근거와 검증 범위는 [검수 가이드](docs/validation.md)에서 확인합니다.
+
+---
 
 쉬웨이훙의 『몰입을 설계하는 게임 기획』 제2판을 바탕으로 **난이도·전략·감정·경험·성장·경제**를 학습하고 설계·검토하는 지식 스킬입니다. 실제 호출 이름은 **`game-design-for-immersion`**입니다.
 
@@ -66,6 +96,7 @@ $game-design-for-immersion 원서 3장으로 3분 액션 스테이지의 감정 
 - [보강된 조건을 내 기획에 적용하기](#refined-usage)
 - [스킬 구성과 전체 4장](#structure)
 - [상세 가이드](#guides)
+- [릴리스 노트와 공개 절차](#releases)
 - [출처와 검증 범위](#evidence)
 
 ## 간단 사용과 요청문 <a id="usage"></a>
@@ -160,6 +191,17 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 | 4장 전략·18절 예시·연계 시나리오 | [고급 활용](docs/advanced-usage.md) |
 | 근거·수치·답변·실제 호출 검사 | [검수와 테스트](docs/validation.md) |
 | 인식·경로·누락·OCR·수치 문제 | [문제 해결](docs/troubleshooting.md) |
+| 릴리스 노트와 GitHub Release 생성 | [릴리스 가이드](release/README.md) |
+
+## 릴리스 노트와 공개 절차 <a id="releases"></a>
+
+릴리스 노트는 [release/](release/README.md)에 KST 작성일과 `yyyy-mm-dd-title.md` 규칙으로 보관합니다. 노트를 저장하거나 커밋하는 일은 공개 릴리스가 아닙니다. GitHub Release를 만들 때는 태그, 대상 **전체 커밋 SHA**, 제목, 노트 파일을 검토한 뒤 [정해진 `gh release create` 절차](release/README.md#github-release)를 사용합니다.
+
+| 항목 | 현재 위치 |
+|---|---|
+| 최신 노트 | [2026-10-15 — 문서·릴리스 가이드](release/2026-10-15-documentation-and-release-guide.md) |
+| 새 노트 양식 | [릴리스 노트 템플릿](release/_template.md) |
+| 공개 절차 | [릴리스 가이드](release/README.md) |
 
 ## 출처와 검증 범위 <a id="evidence"></a>
 

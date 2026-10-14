@@ -2,6 +2,11 @@
 
 동일한 지식 스킬을 Codex·Claude Code·Antigravity에서 사용합니다. 설치 경로가 맞는 것, 앱이 발견한 것, 실제 요청을 수행한 것은 각각 다른 증거입니다.
 
+[README](../README.md) · [가이드 홈](index.md) · [시작하기](getting-started.md) · [문제 해결](troubleshooting.md) · [검수와 테스트](validation.md) · [릴리스 가이드](../release/README.md)
+
+> [!CAUTION]
+> 경로·메타데이터 검사만으로 실제 호스트 호출이 통과한 것은 아닙니다. 호출 증거의 범위는 [검수와 테스트](validation.md#evidence-levels)를 따릅니다.
+
 | 호스트 | 프로젝트 경로 | 요청 예시 |
 |---|---|---|
 | Codex | `.agents/skills/game-design-for-immersion/` | `$game-design-for-immersion 원서 3장으로 감정 곡선을 검토해줘.` |
