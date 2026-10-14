@@ -40,7 +40,7 @@ cp -R "$SKILL_SOURCE" "$SKILL_TARGET"
 ln -s '../../.agents/skills/game-design-for-immersion' "$CLAUDE_TARGET"
 ```
 
-새 설치는 새 세션에서 확인합니다. Codex·Antigravity는 `.agents/skills/`, Claude Code는 `.claude/skills/`에서 연결된 같은 지식 자료를 읽습니다. [호스트별 안내](docs/agents.md)를 참고하세요.
+새 설치는 새 세션에서 확인합니다. Codex·Antigravity는 `.agents/skills/`, Claude Code는 `.claude/skills/`에서 연결된 같은 지식 자료를 읽습니다. [호스트별 안내](docs/agents.md)를 참고합니다.
 
 ## 시작하기 <a id="quick-start"></a>
 
@@ -81,6 +81,9 @@ $game-design-for-immersion 원서 3장으로 3분 액션 스테이지의 감정 
 | 수치 조회 | `$game-design-for-immersion 표 4.1의 초기값·반복 주기·첫 추가 상승을 나눠 설명해줘.` | 원문 값·단위·계산·한계 |
 | 문서 검토 | `$game-design-for-immersion "./기획서.md"를 문제→영향→최소 수정안으로 검토해줘. 파일은 수정하지 마.` | 문장 근거·관련 절·확인할 정책 |
 
+> [!NOTE]
+> 예시는 Codex 형식(`$game-design-for-immersion`)입니다. Claude Code에서는 `/game-design-for-immersion`으로 바꾸거나 `game-design-for-immersion 스킬을 사용해서 …`처럼 요청합니다. 다른 호스트는 [호스트별 사용](docs/agents.md)을 봅니다.
+
 ### 내 상황에 맞게 요청하기
 
 ```text
@@ -96,21 +99,24 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 
 ## 보강된 조건을 내 기획에 적용하기 <a id="refined-usage"></a>
 
-스킬은 특정 기법·사례를 상세 절에서 먼저 확인하고, 큰 설계 관점이 더 필요할 때 장 자료로 확장합니다. [참조 색인](.agents/skills/game-design-for-immersion/references/index.md)과 전략·심리 참조의 절별 바로가기를 이용하세요. 후속에는 선택한 결과뿐 아니라 **적용 조건·예외의 판정, 확인 근거, 미확인 항목**도 넘깁니다.
+스킬은 특정 기법·사례를 상세 절에서 먼저 확인하고, 큰 설계 관점이 더 필요할 때 장 자료로 확장합니다. [참조 색인](.agents/skills/game-design-for-immersion/references/index.md)과 전략·심리 참조의 절별 바로가기를 이용합니다. 후속에는 선택한 결과뿐 아니라 **적용 조건·예외의 판정, 확인 근거, 미확인 항목**도 넘깁니다.
 
 | 내 문제 | 확인할 조건·예외 | 바로 사용할 요청 |
 |---|---|---|
 | 전투 없는 경영 게임의 선택이 단조롭다 | 우위 확보·조합·실행 중 대응, 단기 미션의 템포 비용 | [경영 예시와 후속](docs/advanced-usage.md#common-05) |
 | 심리 효과 이름만으로 기획을 설명하고 있다 | 책/일반 용어의 차이, 누명·요청 순서의 성립 조건 | [심리 조건 학습과 후속](docs/advanced-usage.md#common-06) |
-| 고정 퀘스트에서 장기 복귀를 개선한다 | 실제 조절 가능한 상태, 새 시스템이 필요한 범위, 하나의 복귀 표지 | [복귀 예시와 후속](docs/advanced-usage.md#common-07) |
-| 목표 없는 짧은 경험에 시연을 넣을지 고민한다 | 즉시 플레이의 충분성, 템포의 한계·시연 생략 조건 | [자유 조작 예시와 후속](docs/advanced-usage.md#common-08) |
+| 고정 퀘스트에서 장기 복귀를 개선한다 | 경험 유형과 중단 시간, 실제 조절 가능한 상태, 새 시스템이 필요한 범위, 하나의 복귀 표지 | [복귀 예시와 후속](docs/advanced-usage.md#common-07) |
+| 목표 없는 짧은 경험에 시연을 넣을지 고민한다 | 빠른 템포는 목표 부재를 상쇄하는 유일한 방법이지만 목표가 있을 때 집중이 더 쉬움, 시연 생략은 기획자의 확신과 즉시 충분한 플레이가 함께 있을 때 | [자유 조작 예시와 후속](docs/advanced-usage.md#common-08) |
 | 느린 획득 경로를 삭제하거나 유통·상품을 바꾼다 | 영구·대체 불가 보상, 시스템 재유통, 상호 필요, 진행·가격의 다른 축 | [조건별 활용 표](docs/advanced-usage.md#refined-conditions) |
+| 성장 곡선이 겹치거나 해금 간격이 일정하지 않다 | 책의 ‘성장 곡선’은 수치 성장만 가리킴, 새 능력·챕터 해금(큰 파동)과 수치 상승(작은 파동), 능력 성장·수치 성장 비중형의 차이, 시작 레벨 차이와 의도적 겹침 | [A. 6개 성장 경로의 체감을 실력·해금·증가량으로 진단하기](docs/advanced-usage.md#s11-a)<br>[B. 표 4.1의 초기값·주기·첫 상승을 따로 검산하기](docs/advanced-usage.md#s11-b) |
+| 외형 상품을 설계하며 책의 과시용 장비 사례를 참고한다 | 책은 과시용 장비에 일정 수준의 수치 능력을 권하고, 채택하지 않으면 일부 수익을 포기하는 대신 긍정적 평가를 얻는다고 씀, 외형만 유료와의 충돌, 한정성·획득 루트 설계 | [A. 재료 부족과 외형 욕망의 상품 동기·정책 충돌 구분하기](docs/advanced-usage.md#s16-a) |
+| 서버 회전이나 녹색 게임 같은 사업 방향을 비교한다 | AFK·서버 통합은 자원 독점형의 서술, 녹색은 PVE 자원 획득과 추가 유료 아이템 가격 상향, 외형 가격은 미정 | [A. 서버 회전 두 유형과 녹색 게임의 사업 조건 비교하기](docs/advanced-usage.md#s17-a)<br>[B. 외형 유료 모델과 녹색 게임의 공통점·차이 검토하기](docs/advanced-usage.md#s17-b) |
 
 **정책의 적용 범위도 구분합니다.** ‘외형만 유료’는 성능·진행 우위 판매를 배제하는 조건입니다. 아직 미정인 외형 가격·전시 등급·외형 전용 할인까지 자동 금지하는 뜻으로 넓히지 않습니다. 책의 소비 집단·VIP·가격 사례는 현재 정책의 정답이 아니라 비교할 조건입니다.
 
 ## 스킬 구성과 전체 4장 <a id="structure"></a>
 
-**관련 자료 선택 → 실제 내용 읽기 → 근거와 프로젝트 조건 구분 → 학습·설계·검토 → 반례 확인** 순으로 활용합니다. 이는 이 가이드의 활용 흐름입니다.
+**관련 자료 선택 → 실제 내용 읽기 → 근거와 프로젝트 조건 구분 → 학습·설계·검토 → 반례 확인** 순으로 활용합니다. 이 순서는 이 가이드의 활용 흐름입니다.
 
 ```text
 .agents/skills/game-design-for-immersion/
@@ -123,6 +129,7 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 │   ├── figures-and-formulas.md # 표·수식·단위·검산
 │   ├── glossary-extended.md   # 확장 용어
 │   ├── review-history.json    # 기존 원문 재대조 기록
+│   ├── revalidation-2026-10-14.json # 2026-10-14 재검수 기록
 │   └── sections/              # 상세 18절
 ├── glossary.md                # 핵심 용어
 ├── patterns.md                # 실무 적용 절차
@@ -140,7 +147,7 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 > [!IMPORTANT]
 > **원서 장 `ch01`–`ch04`와 상세 참조 `s01`–`s18`을 구분합니다.** 초기 버전의 `ch07`은 현재 `s07`(감정 곡선)입니다. 현재 원서 3장은 게임 경험 설계입니다.
 
-장 전체의 관점은 `chapters/`, 특정 조건과 사례는 `references/sections/`에서 읽습니다. [참조 색인](.agents/skills/game-design-for-immersion/references/index.md)은 파일 선택용이며, 그 표만 읽고 상세 조건을 단정하지 않습니다. [전체 목차 대응](.agents/skills/game-design-for-immersion/references/coverage.md)과 [고급 활용](docs/advanced-usage.md)에서 18절을 찾아보세요.
+장 전체의 관점은 `chapters/`, 특정 조건과 사례는 `references/sections/`에서 읽습니다. [참조 색인](.agents/skills/game-design-for-immersion/references/index.md)은 파일 선택용이며, 그 표만 읽고 상세 조건을 단정하지 않습니다. [전체 목차 대응](.agents/skills/game-design-for-immersion/references/coverage.md)과 [고급 활용](docs/advanced-usage.md)에서 18절을 찾아봅니다.
 
 ## 상세 가이드 <a id="guides"></a>
 
@@ -167,4 +174,4 @@ $game-design-for-immersion [기능/문서/경험]을 [학습/설계/비교/검�
 > [!NOTE]
 > 이 자료는 학습·적용을 위해 합성한 지식이며 원문 전체·긴 인용·원본 도판의 복제본이 아닙니다. 일부 OCR 수식·VIP 표의 한계는 출처 기록과 상세 자료에서 확인합니다. 원문이나 전체 추출 텍스트는 공유할 스킬에 포함하지 않습니다.
 
-정확한 도판·기호는 제공된 PDF로 재확인합니다. 심리 연구의 외부 재현성, 현재 시장·가격·정책, 실제 게임 성과는 이 책 기반 검수만으로 확인되지 않습니다.
+스킬은 원문 없이 포함된 자료만으로 답하고, 원문 확인이 필요한 곳은 쪽을 안내합니다. 원문 PDF와 직접 대조하는 방법은 [문제 해결](docs/troubleshooting.md#source-check)에 있습니다. 심리 연구의 외부 재현성, 현재 시장·가격·정책, 실제 게임 성과는 이 책 기반 검수만으로 확인되지 않습니다.

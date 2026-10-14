@@ -52,7 +52,9 @@
 | QTE, 기억형 조작, 공격 방식, 쾌감·대비 | [s01](sections/s01-hot-challenge.md) | 실제 효율과 조작 경험의 차이 |
 | 비전투 전략·경영·생산·거래 루프 | [s02](sections/s02-cold-strategy.md) | 우위 확보·조합·실행 중 대응, 템포를 바꾸는 조건 |
 | 덱·유닛·행동 순서, 스펙·확률·상성 | [s02](sections/s02-cold-strategy.md) | 전투 외·전·중의 전략, 효용·대가·대응 |
-| 대미지·방어식, 원탁 이론, 생존 시간 | [수치 참조](figures-and-formulas.md) → [s02](sections/s02-cold-strategy.md) | 변수의 역할·수식 범위·원문 기호 |
+| 대미지·방어식, 원탁 이론, 생존 시간 | [수치 참조](figures-and-formulas.md) → [s02](sections/s02-cold-strategy.md) | 변수의 역할·수식 범위·원문 기호, 생존 턴 수 모델(식 (1.1)–(1.3)) |
+| 몬스터 공격 횟수 n, 긴장 유지, 생존 능력 향상 폭 | [s02](sections/s02-cold-strategy.md#strategy-monster-n) | 작은 n을 유지하는 방법, 장르별 참고치(대략적 예시), n이 클 때의 보완 |
+| 전투 스타일(방어 상한선·제어형), 능력치 배분 | [s02](sections/s02-cold-strategy.md#strategy-prebattle) | 전투 전 최적 조합의 요소 |
 | 시퀀스 트리, 게임 이론, 강자 독점·제어 균형 | [s02](sections/s02-cold-strategy.md) | 다단계·상호 의존 선택과 역전 조건 |
 | 기쁨·도움·관계 변화, 분노·배신·복수 | [2장](../chapters/ch02-player-emotion.md) → [s03](sections/s03-emotion.md) | 감정 대상·기대·행동 원인 |
 | 슬픔·공포·감동을 플레이로 만들기 | [s03](sections/s03-emotion.md) | 상실·예고·애정·신념과 상호작용 |
@@ -60,8 +62,8 @@
 | 가용성 편향·착각적 사고·통제의 환상 | [용어 범위](glossary-extended.md#term-scope) → [s04](sections/s04-psychology.md) | 원문 용법·일반 정의·정상 통제감의 구분 |
 | 군중심리·역할·인지부조화·과잉정당화 | [s04](sections/s04-psychology.md) | 저자의 조건·한계와 편집자 적용안 |
 | 공감·보호 스킬·협력, 사회적 촉진·태만 | [s04](sections/s04-psychology.md) → [s05](sections/s05-social-interaction.md) | 개인 기여와 공동 경험의 연결 |
-| 프레이밍·미끼·앵커링·매몰 비용·완결감 | [s04](sections/s04-psychology.md) | 정보·기준점·완료 지점, 효과의 비보편성 |
-| LTV·게임 수명·장기 지속 | [s05](sections/s05-social-interaction.md) | 책의 ‘게임의 수명(LTV)’ 표기와 사회 교류 맥락; 재무 지표 정의·계산식과 구분 |
+| 프레이밍·미끼·서열 위치 효과·피크엔드 법칙·앵커링·매몰 비용·완결감 | [s04](sections/s04-psychology.md) | 정보·기준점·완료 지점, 효과의 비보편성 |
+| LTV·게임 수명·장기 지속 | [s05](sections/s05-social-interaction.md) | 책의 ‘게임의 수명(LTV)’ 표기와 사회 교류 맥락. 재무 지표 정의·계산식과 구분 |
 | 친구 기능·길드가 있어도 교류가 없다 | [s05](sections/s05-social-interaction.md) | 같은 목표와 서로의 상황을 바꾸는 기여 |
 | 같은 자극이 지루하다, 2–3분 경험도 곡선이 필요한가 | [3장](../chapters/ch03-game-experience.md) → [s06](sections/s06-change.md) | 감각 순응·변화·시간 단위 |
 | 기본형·할리우드형·파동형 중 선택 | [s07](sections/s07-emotion-curves.md) | 형태·목표·반복 변화·성취와 절정의 구분 |
@@ -70,10 +72,11 @@
 | 오리와 눈먼숲, 추격·위험 예고·스테이지 끝 | [s08](sections/s08-tone-stage.md) | 플레이어 조절과 고조·해소·반복 길이 |
 | 기대·암시물·목표·메인 루프·엔딩 | [s09](sections/s09-content-loop.md) | 참여·변화·보상 예측·강한 끝 |
 | 서브 퀘스트·멀티 엔딩·오픈 월드·샌드박스·MMORPG | [s10](sections/s10-story-structure.md) | 자유도와 감정 흐름, 세계 변화의 조건 |
+| 3장 전체 요약, 스릴과 쾌감의 구분, 경험 설계의 적용 범위 | [3장](../chapters/ch03-game-experience.md) | 장 요약 절(본문 224쪽/PDF 240쪽) |
 | 성장 시스템이 많지만 강해진 느낌이 없다 | [4장](../chapters/ch04-rewards-growth-monetization.md) → [s11](sections/s11-growth.md) | 숙련·기능·수치, 합계·차이·주기 |
 | 희귀 아이템이 가치 없다, 수요·효용·인정 | [s12](sections/s12-value-system.md) | 가치 네 요소의 결합 |
 | 보상·메인 난관·서브 난관·후발 추격 | [s13](sections/s13-reward-placement.md) | 진행 단계·난관·후반 보상 기준 |
-| 입장권·고레벨과 저레벨의 협력 | [s14](sections/s14-trade-social.md) | 서로 부족한 자원이 교차하는 호혜 조건 |
+| 입장권·고레벨과 저레벨의 협력 | [s14](sections/s14-trade-social.md) | 고레벨이 유용한 보상을 얻을 수 있고 서버가 전반적으로 고레벨일 때 저레벨 입장권이 희소해지는 조건 |
 | 완전 유통·반 유통·귀속·거래 불가·호혜 | [s14](sections/s14-trade-social.md) | 공급·가격·역할과 상호 도움 |
 | 소·중·고과금, 부족함·욕망, VIP·결제 사례 | [s15](sections/s15-spending-tiers.md) → [s16](sections/s16-paid-content.md) | 계층별 능력·진행과 역사적 사례 조건 |
 | 서버 회전·자원 독점·녹색 게임 | [s17](sections/s17-business-direction.md) | 사업 방향·경쟁·유료 효용의 의미 |
